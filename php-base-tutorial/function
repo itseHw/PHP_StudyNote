@@ -1,0 +1,31 @@
+<?php
+//build-in Functions
+/*
+array(), count(), date(), echo, print
+
+
+
+*/
+
+//functions
+// function printHello(){
+//     echo "Hello!";
+// }
+
+// printHello();
+
+function printHello(){
+    return "Hello!";
+}
+
+echo printHello();
+
+function printHelloWho($who){
+    return "Hello, $who!";
+}
+
+echo printHelloWho('Peter');
+
+// if more than one $variable
+//function name($one,$two)
+?>
